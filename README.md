@@ -1,121 +1,58 @@
-# 🚀 [Your Project Title Here]
+# Solar Panel Performance Monitor based on U2
 
-> ⚠️ **Replace everything in `[ ]` brackets with your actual content before submission.**
+## Team
+**Team Name:** Drift  
+**Track:** AI
 
----
+### Team Members
+- Krishna Ramani — Team Lead — 26ce087@charusat.edu.in
+- Tejshvi Rachchh — 26ce084@charusat.edu.in
+- Vishva Prajapati — 26ce083@charusat.edu.im
+- Rutvi Gadara — 26ce024@charusat.edu.in
 
-## 👥 Team
+## Problem Statement
+Solar panel operators can lose valuable energy when dust accumulation, high
+panel temperature, inverter inefficiency, shading, and cloud cover reduce
+system output. Without clear monitoring, it can be difficult to identify the
+cause of performance loss and decide what action is required.
 
-| Field | Value |
-|---|---|
-| **Team Name** | [Your Team Name] |
-| **Track** | [AI / DevOps / Sustainability / Open] |
-| **Team Lead** | [Name] — [email@ibm.com] |
-| **Members** | [Name 1], [Name 2], [Name 3] |
+## Solution
+The Solar Panel Performance Monitor is a web-based dashboard that compares
+expected and actual solar generation while monitoring important performance
+factors. It identifies possible loss causes, estimates energy loss, and
+provides recommended corrective actions.
 
----
+## Key Features
+- Expected vs actual generation
+- Real-time factor monitoring
+- Fault and warning detection
+- Energy-loss estimation
+- Recommended actions
+- Generation and efficiency charts
+- Daily history and detailed reports
 
-## 🎯 Problem Statement
+## Tech Stack
+- HTML
+- CSS
+- JavaScript
+- Chart.js
+- [U2 TECHNOLOGY — ADD EXACT NAME]
+- [IBM TECHNOLOGY — ADD ONLY IF ACTUALLY USED]
 
-> In 2–3 sentences: What problem does your project solve? Who experiences this problem?
+## How to Run
+Open `src/index.html` in a modern browser, or serve the project through a
+local web server if required.
 
-[Describe the real-world problem your project addresses. Be specific about who the user is and what pain point they face.]
+## Demo
+- Video: [YOUR DEMO VIDEO URL]
+- Live demo: [YOUR LIVE DEMO URL OR NOT DEPLOYED]
+- Screenshots: `demo/screenshots/`
 
----
+## Known Limitations
+- The current demonstration uses browser-based monitoring/simulation.
+- Real sensor/IoT integration can be added for production deployment.
+- Exact U2 integration details must match the technology actually used.
 
-## 💡 Solution
-
-> In 2–3 sentences: What did you build? How does it solve the problem above?
-
-[Describe your solution clearly. Explain the core mechanism — what makes it work.]
-
----
-
-## ✨ Key Features
-
-- **Feature 1:** [Brief description — e.g., "Real-time anomaly detection using watsonx.ai"]
-- **Feature 2:** [Brief description]
-- **Feature 3:** [Brief description]
-- **Feature 4:** [Optional]
-- **Feature 5:** [Optional]
-
----
-
-## 🛠️ Tech Stack
-
-| Category | Technologies |
-|---|---|
-| **Languages** | [e.g., Python, TypeScript] |
-| **Frameworks** | [e.g., FastAPI, React] |
-| **IBM Technologies** | [e.g., watsonx.ai, IBM Bob, IBM Cloud] |
-| **Databases** | [e.g., PostgreSQL, Redis] |
-| **Other** | [e.g., Docker, GitHub Actions] |
-
----
-
-## 📁 Repository Structure
-
-```
-├── src/                  # All source code
-├── docs/                 # Written documentation
-│   ├── problem-statement.md
-│   ├── solution-overview.md
-│   ├── architecture.md
-│   └── setup-guide.md
-├── demo/                 # Demo artifacts
-│   ├── screenshots/      # App screenshots
-│   └── demo-video-link.txt  # Link to demo video
-├── presentation/         # Slide deck
-└── submission.yaml       # Structured submission metadata
-```
-
----
-
-## ⚡ How to Run
-
-> **Copy these exact steps from your [`docs/setup-guide.md`](docs/setup-guide.md)**
-
-```bash
-# 1. Clone the repo
-git clone https://github.com/[your-repo].git
-cd [your-repo]
-
-# 2. Install dependencies
-[your install command here]
-
-# 3. Configure environment
-cp .env.example .env
-# Edit .env with your values
-
-# 4. Run the project
-[your run command here]
-```
-
----
-
-## 🖥️ Demo
-
-| Artifact | Link |
-|---|---|
-| 📹 Demo Video | [See demo/demo-video-link.txt](demo/demo-video-link.txt) |
-| 🌐 Live Demo | [See demo/live-demo-url.txt](demo/live-demo-url.txt) |
-| 🖼️ Screenshots | [See demo/screenshots/](demo/screenshots/) |
-| 📊 Presentation | [See presentation/slides.pdf](presentation/) |
-
----
-
-## ⚠️ Known Limitations
-
-> Be honest — judges appreciate transparency over overclaiming.
-
-- [Limitation 1: e.g., "Authentication is mocked — not production-ready"]
-- [Limitation 2: e.g., "Only tested on Chrome"]
-- [Limitation 3: e.g., "Feature X is scaffolded but not fully implemented"]
-
----
-
-## 🏅 What We're Most Proud Of
-
-[Tell the judges what part of your submission is strongest and worth paying close attention to.]
-
----
+## What We're Most Proud Of
+The dashboard connects abnormal performance factors with estimated energy loss
+and recommended actions instead of only displaying generation.
