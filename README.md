@@ -1,7 +1,7 @@
 # Solar Panel Performance Monitor based on U2
 
 ## Team
-**Team Name:** Drift  
+**Team Name:** TechTitans 
 **Track:** AI
 
 ### Team Members
